@@ -8,7 +8,7 @@
 .logo {
   height: 80%;
   width: fit-content;
-  margin-left: 65px;
+  margin-left: 4rem;
 }
 
 img {
@@ -17,23 +17,22 @@ img {
 
 .navBarList {
   color: white;
-  font-size: larger;
+  font-size: 1.2rem;
   font-weight: bold;
   display: flex;
   justify-content: space-between;
   list-style: none;
-  margin-right: 60px;
-  gap: 40px;
+  margin-right: 4rem;
+  gap: 2.5rem;
 }
 
-li {
-  border-radius: 15px;
+.list {
   padding: 8px;
   cursor: pointer;
   position: relative;
 }
 
-li::after {
+.list::after {
   content: "";
   background-color: #ff1689;
   width: 100%;
@@ -43,9 +42,43 @@ li::after {
   bottom: 0;
   left: 0;
   transform: scale(0, 1);
+}
+
+.list:hover::after {
+  transform: scale(1, 1);
   transition: transform 0.3s ease;
 }
 
-li:hover::after {
+.navBar .active::after {
   transform: scale(1, 1);
+}
+
+.hamBurgerMenu {
+  display: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropDownMenu .navBarList {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 928px) {
+  .navBarList {
+    display: none;
+  }
+  .hamBurgerMenu {
+    display: block;
+    margin-right: 2.5rem;
+  }
+  .logo {
+    margin-left: 3rem;
+  }
 }
