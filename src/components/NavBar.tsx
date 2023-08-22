@@ -1,4 +1,4 @@
-import "./NavBar.css";
+import "./NavBar.scss";
 import logo from "../assets/kiriti-high-resolution-logo-color-on-transparent-background.png";
 import menu from "../assets/icons8-hamburger-menu-48.png";
 import cross from "../assets/icons8-cross-48.png";
@@ -37,26 +37,22 @@ function NavBar() {
             alt="menu"
             onClick={() => setToggle(!toggle)}
           />
-          <div className={!toggle ? "dropDownMenu hidden" : "dropDownMenu"}>
-            <ul className="navBarList">
-              {navBarLinks.map((each) => (
-                <Link
-                  to={"/" + each.title}
-                  style={{ color: "white", textDecoration: "none" }}
+          <ul className={!toggle ? "navBarList hidden" : "navBarList"}>
+            {navBarLinks.map((each) => (
+              <Link
+                to={"/" + each.title}
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                <li
+                  key={each.id}
+                  className={activeLink === each.title ? "list active" : "list"}
+                  onClick={() => setActiveLink(each.title)}
                 >
-                  <li
-                    key={each.id}
-                    className={
-                      activeLink === each.title ? "list active" : "list"
-                    }
-                    onClick={() => setActiveLink(each.title)}
-                  >
-                    {each.title}
-                  </li>
-                </Link>
-              ))}
-            </ul>
-          </div>
+                  {each.title}
+                </li>
+              </Link>
+            ))}
+          </ul>
         </div>
       </div>
     </>
