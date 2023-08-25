@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import About from "./components/About";
+import Home from "./components/Home";
 import SocialProfiles from "./components/SocialProfiles";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <NavBar />
-        <About />
+        <Home />
         <SocialProfiles />
       </div>
     </BrowserRouter>

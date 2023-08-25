@@ -1,6 +1,5 @@
 import logo from "../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg";
-
-import "./About.scss";
+import "./Home.scss";
 
 function About() {
   return (
