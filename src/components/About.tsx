@@ -11,9 +11,9 @@ function About() {
           <div className="line"></div>
         </div>
         <div className="info">
-          <>
+          <div>
             Hi, I'm <b>Kiriti</b>
-          </>
+          </div>
           <div className="caption">Software Developer</div>
           <button>Download Resume</button>
         </div>

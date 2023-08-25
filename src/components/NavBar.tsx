@@ -13,12 +13,14 @@ function NavBar() {
     <>
       <div className="navBar">
         <div className="logo">
-          <img src={logo} alt="" />
+          <Link to="/" style={{ color: "white", textDecoration: "none" }}>
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <ul className="navBarList">
           {navBarLinks.map((each) => (
             <Link
-              to={"/" + each.title}
+              to={"#" + each.title}
               style={{ color: "white", textDecoration: "none" }}
             >
               <li
@@ -40,7 +42,7 @@ function NavBar() {
           <ul className={!toggle ? "navBarList hidden" : "navBarList"}>
             {navBarLinks.map((each) => (
               <Link
-                to={"/" + each.title}
+                to={"#" + each.title}
                 style={{ color: "white", textDecoration: "none" }}
               >
                 <li

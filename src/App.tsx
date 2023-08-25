@@ -1,7 +1,8 @@
+import "./App.css";
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import "./App.css";
 import About from "./components/About";
+import SocialProfiles from "./components/SocialProfiles";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="App">
         <NavBar />
         <About />
+        <SocialProfiles />
       </div>
     </BrowserRouter>
   );
