@@ -8,13 +8,21 @@ function About() {
       <div className="info">
         <img src={ProfilePic} alt="" />
         <div>
-          I'm GLVS Kiriti <b>|</b> Full Stack developer <b>|</b> Open Source
+          I'm <b>GLVS Kiriti</b> | Full Stack developer | Open Source
           contributor
           <br />
           <br />
-          I'm well versed in the domain of Full Stack Development and also love
-          tinkering with technologies related to DevOps and learning how things
-          work. I love contributing in Open Source
+          👋 Seasoned Full Stack Developer weaving together digital experiences.
+          <br />
+          <br />
+          🚀 On a DevOps learning path for streamlined development.
+          <br />
+          <br />
+          💻 Active Open Source contributor, collaborating and learning with the
+          community
+          <br />
+          <br />
+          🏡 Finding joy in the company of family and friends beyond the screen.
         </div>
       </div>
     </div>

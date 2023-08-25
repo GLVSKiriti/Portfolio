@@ -1,6 +1,6 @@
 .about {
   color: white;
-  height: 85vh;
+  min-height: 85vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -14,28 +14,40 @@
   }
   .info {
     display: flex;
-    align-items: start;
+    align-items: center;
     gap: 5rem;
-    width: 70vw;
+    width: 75vw;
     img {
-      border-radius: 50px;
+      border-radius: 50%;
       height: 300px;
       width: 300px;
     }
     div {
       font-size: 20px;
       letter-spacing: 1px;
-      line-height: 25px;
+      line-height: 20px;
       b {
-        // color: #ff1689;
+        color: #ff1689;
       }
     }
-    @media (max-width: 640px) {
+  }
+  @media (max-width: 836px) {
+    h1 {
+      height: 10vh;
+      font-size: 36px;
+      padding-top: 0rem;
+    }
+    .info {
       flex-direction: column;
       align-items: center;
+      gap: 3rem;
+
       img {
         height: 200px;
         width: 200px;
+      }
+      div {
+        font-size: 16px;
       }
     }
   }
