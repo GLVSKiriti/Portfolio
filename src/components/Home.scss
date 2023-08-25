@@ -1,7 +1,9 @@
-.about {
+.home {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: start;
+  height: 85vh;
   .infoSection {
     min-width: 50vw;
     display: flex;
@@ -60,7 +62,7 @@
     }
   }
 
-  .aboutLogo {
+  .homeLogo {
     height: 85vh;
     width: 50vw;
 
@@ -74,5 +76,19 @@
   }
   @media (max-width: 508px) {
     transform: scale(0.8, 0.8);
+  }
+
+  .scollToAbout {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    img {
+      height: 35px;
+      width: 35px;
+    }
   }
 }

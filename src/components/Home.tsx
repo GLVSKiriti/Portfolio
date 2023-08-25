@@ -1,9 +1,10 @@
 import logo from "../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg";
+import angleDownArrow from "../assets/angle.png";
 import "./Home.scss";
 
-function About() {
+function Home() {
   return (
-    <div className="about">
+    <div className="home" id="">
       <div className="infoSection">
         <div className="infoDecoration">
           <div className="circle"></div>
@@ -17,11 +18,20 @@ function About() {
           <button>Download Resume</button>
         </div>
       </div>
-      <div className="aboutLogo">
+      <div className="homeLogo">
         <img src={logo} alt="" />
       </div>
+      <a
+        className="scollToAbout"
+        href="/#About"
+        style={{ color: "white", textDecoration: "none" }}
+      >
+        <img src={angleDownArrow} alt="" />
+        <div>Scroll Down</div>
+        <img src={angleDownArrow} alt="" />
+      </a>
     </div>
   );
 }
 
-export default About;
+export default Home;
