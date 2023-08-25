@@ -14,7 +14,7 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <SocialProfiles />
+        <SocialProfiles check="any" />
       </div>
     </BrowserRouter>
   );

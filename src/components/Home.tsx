@@ -1,6 +1,7 @@
 import logo from "../assets/ales-nesetril-Im7lZjxeLhg-unsplash.jpg";
 import angleDownArrow from "../assets/angle.png";
 import "./Home.scss";
+import SocialProfiles from "./SocialProfiles";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <div className="homeLogo">
         <img src={logo} alt="" />
       </div>
+      <SocialProfiles check="home" />
       <a
         className="scollToAbout"
         href="/#About"

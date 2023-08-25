@@ -4,9 +4,12 @@ import gmail from "../assets/gmail.png";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
 import twitter from "../assets/twitter.png";
-function SocialProfiles() {
+interface profileProps {
+  check: string;
+}
+function SocialProfiles(props: profileProps) {
   return (
-    <div className="socialProfiles">
+    <div className={props.check === "home" ? "homeProfiles" : "socialProfiles"}>
       <div className="icon">
         <a href="https://github.com/GLVSKiriti">
           <img src={github} alt="" />
@@ -32,7 +35,7 @@ function SocialProfiles() {
           <img src={twitter} alt="" />
         </a>
       </div>
-      <div className="line"></div>
+      {/* <div className="line"></div> */}
     </div>
   );
 }
