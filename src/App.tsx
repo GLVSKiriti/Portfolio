@@ -6,6 +6,7 @@ import SocialProfiles from "./components/SocialProfiles";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Skills />
         <Experience />
+        <Projects />
         <SocialProfiles check="any" />
       </div>
     </BrowserRouter>
