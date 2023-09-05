@@ -31,8 +31,8 @@ export const ProjectsList: Project[] = [
   {
     name: "TrendZ",
     description:
-      "A Web App that allow users to store and share sensitive data with nominated individuals \
-      in a secure and automated manner during emergencies or unforeseen circumstances",
+      "An e-commerce store for clothing enthusiasts,Discover the latest fashion\
+        trends effortlessly while enjoying a secure and stylish shopping experience.",
     tags: ["React", "JavaScript", "Redux", "Express", "MongoDB"],
     image: TrendZLogo,
     source: "https://github.com/GLVSKiriti/TrendZ",
