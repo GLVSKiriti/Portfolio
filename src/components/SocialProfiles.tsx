@@ -9,7 +9,7 @@ interface profileProps {
 }
 function SocialProfiles(props: profileProps) {
   return (
-    <div className={props.check === "home" ? "homeProfiles" : "socialProfiles"}>
+    <div className={props.check + "Profiles"}>
       <div className="icon">
         <a href="https://github.com/GLVSKiriti">
           <img src={github} alt="" />
@@ -35,7 +35,6 @@ function SocialProfiles(props: profileProps) {
           <img src={twitter} alt="" />
         </a>
       </div>
-      {/* <div className="line"></div> */}
     </div>
   );
 }

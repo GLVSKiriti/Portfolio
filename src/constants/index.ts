@@ -19,10 +19,6 @@ const navBarLinks = [
     id: 5,
     title: "Blog",
   },
-  {
-    id: 6,
-    title: "Contact",
-  },
 ];
 
 export { navBarLinks };
