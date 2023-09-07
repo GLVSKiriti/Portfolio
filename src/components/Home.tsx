@@ -16,7 +16,11 @@ function Home() {
             Hi, I'm <b>Kiriti</b>
           </div>
           <div className="caption">Software Developer</div>
-          <button>Download Resume</button>
+          <button>
+            <a href="https://drive.google.com/file/d/1DNUYU65KmjsXXYAu4teirbFDZZeK5uUD/view?usp=sharing">
+              Download Resume
+            </a>
+          </button>
         </div>
       </div>
       <div className="homeLogo">

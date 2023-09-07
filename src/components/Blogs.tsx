@@ -10,7 +10,9 @@ function Blogs() {
         real-world working experiences through my blog. Feel free to explore my
         blog page for valuable insights.
       </p>
-      <button className="blogButton">Read Here</button>
+      <button>
+        <a href="https://glvskiriti.hashnode.dev/">Read Here</a>
+      </button>
     </div>
   );
 }
