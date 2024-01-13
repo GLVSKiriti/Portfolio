@@ -1,6 +1,7 @@
 import TrustVaultLogo from "../assets/TrustVault.png";
 import PortfolioLogo from "../assets/Portfolio.png";
 import TrendZLogo from "../assets/TrendZ.png";
+import MiniRouteLogo from "../assets/MiniRoute.png";
 
 export interface Project {
   name: string;
@@ -36,5 +37,15 @@ export const ProjectsList: Project[] = [
     tags: ["React", "JavaScript", "Redux", "Express", "MongoDB"],
     image: TrendZLogo,
     source: "https://github.com/GLVSKiriti/TrendZ",
+  },
+  {
+    name: "MiniRoute",
+    description:
+      "A Go lang based URL shortner where users can shorten the long url where Shortened urls\
+       are redirected to original long urls on accessing.\
+       Containerized the whole application",
+    tags: ["React", "TypeScript", "Sass", "Go", "Docker", "PostgreSQL"],
+    image: MiniRouteLogo,
+    source: "https://github.com/GLVSKiriti/MiniRoute",
   },
 ];
