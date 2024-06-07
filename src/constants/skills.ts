@@ -24,6 +24,7 @@ import {
   SiRedis,
   SiGo,
   SiGnubash,
+  SiKubernetes,
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 interface skill {
@@ -135,6 +136,11 @@ const skills: skill[] = [
     name: "Docker",
     icon: SiDocker,
     color: "#2496ED",
+  },
+  {
+    name: "Kubernetes",
+    icon: SiKubernetes,
+    color: "#3970e4",
   },
   {
     name: "Jest",
