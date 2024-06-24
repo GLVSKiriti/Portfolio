@@ -17,7 +17,7 @@ function Home() {
           </div>
           <div className="caption">Software Developer</div>
           <button>
-            <a href="https://drive.google.com/file/d/1o5Of3dQufVov5yPR8PWOcyaQLHwvK-5n/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1Dv26uNEpw1l60hgdOqhqTaeynarsrnCK/view?usp=sharing">
               Download Resume
             </a>
           </button>
