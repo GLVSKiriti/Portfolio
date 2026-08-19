@@ -16,12 +16,12 @@ function About() {
           <br />
           <br />
           🚀 I’ve been involved in open source through <b>GSoC 2024</b> with
-          Falco and <b>LFX Mentorship 2023</b> with Jaeger.
+          Falco and <b>LFX 2023</b> with Jaeger.
           <br />
           <br />
-          💻 I enjoy exploring new technologies across{" "}
-          <b>software engineering, systems, and AI/ML</b>, working on side
-          projects, and contributing to open source.
+          💻 I enjoy exploring new technologies across software engineering,
+          systems, and AI/ML, working on side projects, and contributing to open
+          source.
           <br />
           <br />
           🏡 Outside of tech, I enjoy spending time with family and friends.
