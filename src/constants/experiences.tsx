@@ -1,5 +1,6 @@
 import cncf from "../assets/CNCF.png";
 import gsoc from "../assets/GSoC.png";
+import Mediatek from "../assets/mediatek.png";
 
 export interface experience {
   title: string;
@@ -14,7 +15,7 @@ export const ExperienceList: experience[] = [
   {
     title: "MediaTek",
     role: "Senior Engineer",
-    logo: gsoc,
+    logo: Mediatek,
     color: "linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%)",
     date: "Jan 2026 to Present",
     points: (
