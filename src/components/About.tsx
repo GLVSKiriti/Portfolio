@@ -8,25 +8,26 @@ function About() {
       <div className="info">
         <img src={ProfilePic} alt="" />
         <div>
-          I'm <b>GLVS Kiriti</b> | Full Stack developer | Open Source
-          contributor
+          I'm <b>GLVS Kiriti</b> | Software Engineer | Open Source Contributor
           <br />
           <br />
-          👋 Seasoned Full Stack Developer weaving together digital experiences.
+          👋 Software Engineer at <b>MediaTek</b>, interested in understanding
+          how things work under the hood and building software around that.
           <br />
           <br />
-          🚀 On a DevOps learning path for streamlined development.
+          🚀 I’ve been involved in open source through <b>GSoC 2024</b> with
+          Falco and <b>LFX Mentorship 2023</b> with Jaeger.
           <br />
           <br />
-          💻 Active Open Source contributor, collaborating and learning with the
-          community
+          💻 I enjoy exploring new technologies across{" "}
+          <b>software engineering, systems, and AI/ML</b>, working on side
+          projects, and contributing to open source.
           <br />
           <br />
-          🏡 Finding joy in the company of family and friends beyond the screen.
+          🏡 Outside of tech, I enjoy spending time with family and friends.
         </div>
       </div>
     </div>
   );
 }
-
 export default About;

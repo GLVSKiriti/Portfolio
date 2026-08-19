@@ -12,6 +12,21 @@ export interface experience {
 
 export const ExperienceList: experience[] = [
   {
+    title: "MediaTek",
+    role: "Senior Engineer",
+    logo: gsoc,
+    color: "linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%)",
+    date: "Jan 2026 to Present",
+    points: (
+      <>
+        Explored various low-level system and platform technologies, including
+        <b> Windows drivers</b>, INF, UEFI, ACPI, USB 2.0/3.0, and
+        <b> xHCI</b>. Explored the <b>XHCIDXE driver</b> code from EDK2 and used
+        <b> WinDbg</b> for debugging and understanding system-level behavior.
+      </>
+    ),
+  },
+  {
     title: "Google Summer of Code 2024",
     role: "Contributor",
     logo: gsoc,

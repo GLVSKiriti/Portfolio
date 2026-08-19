@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <hr />
-      <p className="copyRightTag">© 2023 Copyright LVS Kiriti Gajavalli</p>
+      <p className="copyRightTag">© 2026 Crafted by Kiriti Gajavalli</p>
       <hr />
     </div>
   );
